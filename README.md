@@ -19,3 +19,5 @@ Po wybraniu jednej z powyższych opcji na ekranie wyświetli się odpowiedni kom
 <b>Baza danych osobowych</b>
 
 Dodatkową możliwością aplikacji jest stworzenie prywatnej bazy danych z danymi osobowymi swoich bliskich, znajomych, współpracowników itp. Dane segregowane są na podstawie identyfikatora, który przyznajemy każdej osobie. Użytkownik może dodawać, przeglądać, modyfikować oraz oczywiście usuwać dowolną ilość danych.
+
+![alt text](https://github.com/jakuub33/PESEL_i_DaneOsobowe/blob/main/main_menu.jpg)
