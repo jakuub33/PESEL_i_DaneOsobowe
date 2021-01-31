@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Pesel_Projekt</string>
+    <string name="woman">Kobieta</string>
+    <string name="man">Mężczyzna</string>
+    <string name="clear">Wyczyść</string>
+    <string name="select_sex">Wybierz płeć:</string>
+    <string name="select_birth">Wybierz datę urodzenia</string>
+    <string name="enter_pesel">Wprowadź numer PESEL</string>
+    <string name="verify_pesel">Weryfikator PESEL</string>
+    <string name="check">Sprawdź</string>
+    <string name="pesel">PESEL</string>
+    <string name="generator_pesel">Generator PESEL</string>
+    <string name="generate_pesel">Wygeneruj numer PESEL</string>
+    <string name="personal_data">Dane osobowe</string>
+    <string name="menu">MENU</string>
+    <string name="add_personal_data">Dodaj dane osobowe</string>
+    <string name="id">ID</string>
+    <string name="name">Imię</string>
+    <string name="surname">Nazwisko</string>
+    <string name="age">Wiek</string>
+    <string name="email">Email</string>
+    <string name="save">Zapisz</string>
+    <string name="save_to_file">Zapisz do pliku</string>
+    <string name="delete_personal_data">Usuń dane osobowe</string>
+    <string name="delete">Usuń</string>
+    <string name="added_personal_data">Dodane dane osobowe</string>
+    <string name="update_personal_data">Modyfikuj dane osobowe</string>
+    <string name="show_data">Wyświetl dane</string>
+    <string name="add_data">Dodaj dane</string>
+    <string name="update_data">Modyfikuj dane</string>
+    <string name="delete_data">Usuń dane</string>
+    <string name="logo_description">Logo of app</string>
+    <string name="check_pesel">Sprawdź PESEL</string>
+    <string name="check_birth">Sprawdź datę urodzenia</string>
+    <string name="check_sex">Sprawdź płeć</string>
+</resources>

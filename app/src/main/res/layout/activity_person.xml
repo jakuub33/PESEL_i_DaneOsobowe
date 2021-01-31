@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".ActivityPerson">
+
+    <TextView
+        android:id="@+id/textView_text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusableInTouchMode="false"
+        android:text="@string/personal_data"
+        android:textAlignment="center"
+        android:textColor="@color/granat"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btn_Add"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.061" />
+
+    <Button
+        android:id="@+id/btn_Add"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/granat"
+        android:onClick="OnClick_btn_Add"
+        android:text="@string/add_data"
+        app:layout_constraintBottom_toTopOf="@+id/btn_Show"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_text5"
+        app:layout_constraintVertical_bias="0.151" />
+
+    <Button
+        android:id="@+id/btn_Show"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/granat"
+        android:onClick="OnClick_btn_Show"
+        android:text="@string/show_data"
+        app:layout_constraintBottom_toTopOf="@+id/btn_Update"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Add"
+        app:layout_constraintVertical_bias="0.122" />
+
+    <Button
+        android:id="@+id/btn_Update"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#1DCB8F"
+        android:onClick="OnClick_btn_Update"
+        android:text="@string/update_data"
+        app:layout_constraintBottom_toTopOf="@+id/btn_Delete"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Show"
+        app:layout_constraintVertical_bias="0.157" />
+
+    <Button
+        android:id="@+id/btn_Delete"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#1DCB8F"
+        android:onClick="OnClick_btn_Delete"
+        android:text="@string/delete_data"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Update"
+        app:layout_constraintVertical_bias="0.218" />
+</androidx.constraintlayout.widget.ConstraintLayout>

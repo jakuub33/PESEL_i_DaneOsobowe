@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/check_pesel"
+        android:title="@string/check_pesel" />
+
+    <item
+        android:id="@+id/check_birth"
+        android:title="@string/check_birth" />
+
+    <item
+        android:id="@+id/check_sex"
+        android:title="@string/check_sex" />
+
+</menu>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pesel_projekt">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="PESEL i Dane osobowe"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Pesel_Projekt">
+
+        <activity android:name=".DeletePerson_Activity"
+            android:parentActivityName=".ActivityPerson" />
+        <activity
+            android:name=".UpdatePerson_Activity"
+            android:parentActivityName=".ActivityPerson" />
+        <activity
+            android:name=".ReadPerson_Activity"
+            android:parentActivityName=".ActivityPerson" />
+        <activity
+            android:name=".AddPerson_Activity"
+            android:parentActivityName=".ActivityPerson" />
+        <activity
+            android:name=".ActivityPerson"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ActivityVerify"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ActivityGenerator"
+            android:parentActivityName=".MainActivity" />
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
